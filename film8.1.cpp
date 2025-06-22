@@ -30,14 +30,7 @@ int main()
     }
 
     else cout<<"Jest to imie meskie"<<endl;
-    
 
-    string wyraz;
-    cout<<"Podaj wyraz do odwrocenia: ";
-    cin>>wyraz;
-
-    int dlogosc = wyraz.length();
-    cout<<dlugosc;
     
     return 0;
 }
