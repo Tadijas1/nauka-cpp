@@ -23,7 +23,7 @@ Event::Event(string n, int r, int m, int d, int g, int min)
     cin>>godzina;
     cout<<"Podaj minutę wydarzenia: ";
     cin>>minuta;
-}        JEST NIE POTRZEBNE*/
+}                       JEST NIE POTRZEBNE (to na górze)*/
 
 void Event::pokaz()
 {
