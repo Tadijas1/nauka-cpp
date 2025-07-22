@@ -17,7 +17,7 @@ class Punkt
     }
     void wyswietl()
     {
-        cout<<nzwa<<"("<<x<<","<<y<<")"<<endl;
+        cout<<"Punkt: "<<nzwa<<"("<<x<<","<<y<<")"<<endl;
     }
 };
 
@@ -64,6 +64,10 @@ class Kula :public Kolo
 
 int main()
 {
+    //Punkt p1;
+    //p1.wyswietl();
+    Kolo k1;
+    k1.wyswietl();
     Kula kul1;
     kul1.wyswietl();
     
